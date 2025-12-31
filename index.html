@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy New Year! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="music/Nathaniel Constantin - A Piece of You (Official Lyric Video).mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="container">
+        <div class="stars"></div>
+        <div class="content">
+            <h1 class="title">Happy New Year! 🎉</h1>
+            
+            <!-- Button to reveal message -->
+            <button id="revealBtn" class="reveal-button">
+                <span class="button-text">Clickkkk Ellise :P</span>
+            </button>
+            
+            <!-- Hidden message that appears after clicking -->
+            <div id="message" class="message hidden">
+                <div class="message-content">
+                    <h2>Dear Ellise,</h2>
+                    <p>
+                        Happy new year to the cutest, jolliest, happiest, hyper-est, asim-est, and specially the most beautiful-est lady of 2025 and of course 2026, and of course,
+                        every single year... forever and ever!!!
+                        May this year be filled with lots of love, happiness, and laughter!!!
+                        I hope you won't change and still smell maasim jk hsahsahahshsa, I hope you'll still be the same Ellise that I know ehehe the one that 
+                        is makulit sobra hashsahha pero cute pa rin and sobrangggg bait. Very approachable and very understanding. May power talaga ako makita yung future hahaha and I still
+                        did not expect that I'll meet someone like you. I'm so glad that I did because you somehow brighten up my life these last few months of 2025.
+                        Ang kulit mo talaga sobra, hindi nauubusan ng energy parang ewan (pero so cute) whhahahaha but I like that fr kasi ako stoic lang hhahshashhas so complement talaga pfft hashsah
+                        wait natatawa ako hsahasha DI TALAGA AKO GUMAGAWA NG LETTER ACTUALLY THIS IS MY 2ND TIME MAKING A LETTER (First time ko nung christmas) SO IDK SINUSULAT KO DITO (or tinatype)
+                        hashashahs basta ilalagay ko na lang dito yung naiisip and nararamdaman ko talaga ong fr fr anyways... Happy happy happy new year to you Ellise! so sipag, so bait, and so smart (sa smart idk di ako papatalo eh hehehehe hmph)
+                        what else hmmmm, yeahh, I hope I'll get to know you more shshhs. Happy new year princess, pahinga ka na 🙂. You've been a hardworking woman and you really deserve everything. 🙄 okay happy new year ulit lets gaurrrrrr !!!!!!!!!!!!!!
+                        I hope you'll like this simple letter :>
+                    </p>
+                    <p>
+                        P.S "crush mo ba ako!?" "crush mo ako no?" HHAHAHSAHHSA oo na crush na kita fr 🙄😭 like like isn't ittt obviousss duhhh... gagi para akong babae wtf hhuhuhu 
+                        P.S ulit
+                        Di pala takot si hvitserk sa firecrackers and fireworks
+                        like sa cockroach and parade lang talaga siya takot hwahshhashashas, kasi dinala namin siya sa labas and wala siya pakialam, gustong gusto niya pa mag pakarga hsahhsahah
+
+                    </p>
+                    <p class="signature">With all my aura,<br>Kobski 🙂</p>
+                </div>
+                
+                <!-- Button to start photo gallery -->
+                <button id="startGalleryBtn" class="gallery-start-button hidden">
+                    <span>Mga maacm here 📸</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Image gallery section (slideshow) - Full Screen Overlay -->
+    <div id="imageGallery" class="image-gallery-overlay hidden">
+        <div class="gallery-content">
+            <h3>Our Memories</h3>
+            <div class="slideshow-container">
+                <!-- Photo slides -->
+                <div class="slide" data-index="0">
+                    <div class="image-item">
+                        <img src="images/photo1.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Ganda talaga, mapapamura ka na lang (jk language). 'to ba yung "kamandag" ni Ellise bhwahhaha ang asim! 🙄 GADDDAMNNNNNNNNNNNNNNNNNNN</p>
+                </div>
+                <div class="slide" data-index="1">
+                    <div class="image-item">
+                        <img src="images/photo2.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Timezone!!! 4-0 btw ./. </p>
+                </div>
+                <div class="slide" data-index="2">
+                    <div class="image-item">
+                        <img src="images/photo3.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Gymmmm (cant feel my legs and mas maasim yung naka red)</p>
+                </div>
+                <div class="slide" data-index="3">
+                    <div class="image-item">
+                        <img src="images/photo4.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">"Bakit ka nakatingin sakin?" hwahashsahsahhas cute</p>
+                </div>
+                <div class="slide" data-index="4">
+                    <div class="image-item">
+                        <img src="images/photo5.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Galing talaga mag drawing wth also I really like the symbol bwhhashsha ang galinggggg</p>
+                </div>
+                <div class="slide" data-index="5">
+                    <div class="image-item">
+                        <img src="images/photo6.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">ASIM WTH HUMIGA AGAD SA KAMA DI NAG PAPALIT HSHAHAH</p>
+                </div>
+                <div class="slide" data-index="6">
+                    <div class="image-item">
+                        <img src="images/photo7.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Isa pa 'to hehe</p>
+                </div>
+                <div class="slide" data-index="7">
+                    <div class="image-item">
+                        <img src="images/photo8.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Bakit nag papacute 'to? crush mo ba ako!?</p>
+                </div>
+                <div class="slide" data-index="8">
+                    <div class="image-item">
+                        <img src="images/photo9.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Me when me when me when di na kaya magpuyat hehe</p>
+                </div>
+                <div class="slide" data-index="9">
+                    <div class="image-item">
+                        <img src="images/photo10.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Cute kaso gaya gaya ng hoodie and headphones hahaha </p>
+                </div>
+                <div class="slide" data-index="10">
+                    <div class="image-item">
+                        <img src="images/photo11.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Ginawa akong dress to impress IRL</p>
+                </div>
+                <div class="slide" data-index="11">
+                    <div class="image-item">
+                        <img src="images/photo12.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Softboy core fit. oo na susuotin ko na ("When" is a secret tho hehe)</p>
+                </div>
+                <div class="slide" data-index="12">
+                    <div class="image-item">
+                        <img src="images/photo13.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">ASIM(cute) HAHAHHASHHAHAHA</p>
+                </div>
+                <div class="slide" data-index="13">
+                    <div class="image-item">
+                        <img src="images/photo14.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Shoppingggg... bag ko yan ah!???</p>
+                </div>
+                <div class="slide" data-index="14">
+                    <div class="image-item">
+                        <img src="images/photo15.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Dapat pala tinulak na kita sa pool no? sayang...</p>
+                </div>
+                <div class="slide" data-index="15">
+                    <div class="image-item">
+                        <img src="images/photo16.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">HASHASHAHHA height diff ulul mwhhahahahah tatapusin pa natin yung horror hihi</p>
+                </div>
+                <div class="slide" data-index="16">
+                    <div class="image-item">
+                        <img src="images/photo17.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">may nag papacute na naman!? hanep lagi na lang😔😔😔 </p>
+                </div>
+                <div class="slide" data-index="17">
+                    <div class="image-item">
+                        <img src="images/photo18.jpg" alt="Our memory">
+                    </div>
+                    <p class="photo-description">Sa 2nd week of january na 'to (hint lang 'to haha ang. Saya talaga mag bigay ng surprises)</p>
+                </div>
+            </div>
+            <button id="nextPhotoBtn" class="next-button">Next Photo ➡️</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
